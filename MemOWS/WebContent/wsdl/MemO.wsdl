@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://service.web.com.memo" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://service.web.com.memo" xmlns:intf="http://service.web.com.memo" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://service.web.com.memo" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="getProvenance">
+    <complexType/>
+   </element>
+   <element name="getProvenanceResponse">
+    <complexType>
+     <sequence>
+      <element name="getProvenanceReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getOntology">
+    <complexType/>
+   </element>
+   <element name="getOntologyResponse">
+    <complexType>
+     <sequence>
+      <element name="getOntologyReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getPingback">
+    <complexType/>
+   </element>
+   <element name="getPingbackResponse">
+    <complexType>
+     <sequence>
+      <element name="getPingbackReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getProvenanceRequest">
+
+      <wsdl:part element="impl:getProvenance" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getOntologyRequest">
+
+      <wsdl:part element="impl:getOntology" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getOntologyResponse">
+
+      <wsdl:part element="impl:getOntologyResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getPingbackResponse">
+
+      <wsdl:part element="impl:getPingbackResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getProvenanceResponse">
+
+      <wsdl:part element="impl:getProvenanceResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getPingbackRequest">
+
+      <wsdl:part element="impl:getPingback" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="MemO">
+
+      <wsdl:operation name="getProvenance">
+
+         <wsdl:input message="impl:getProvenanceRequest" name="getProvenanceRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getProvenanceResponse" name="getProvenanceResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getOntology">
+
+         <wsdl:input message="impl:getOntologyRequest" name="getOntologyRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getOntologyResponse" name="getOntologyResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getPingback">
+
+         <wsdl:input message="impl:getPingbackRequest" name="getPingbackRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getPingbackResponse" name="getPingbackResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="MemOSoapBinding" type="impl:MemO">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="getProvenance">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getProvenanceRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getProvenanceResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getOntology">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getOntologyRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getOntologyResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getPingback">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getPingbackRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getPingbackResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="MemOService">
+
+      <wsdl:port binding="impl:MemOSoapBinding" name="MemO">
+
+         <wsdlsoap:address location="http://localhost:9000/MemOWS/services/MemO"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

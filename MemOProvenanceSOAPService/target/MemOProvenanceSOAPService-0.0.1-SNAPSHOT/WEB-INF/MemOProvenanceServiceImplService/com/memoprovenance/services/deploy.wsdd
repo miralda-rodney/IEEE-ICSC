@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from MemOProvenanceServiceImplService WSDL service -->
+
+  <service name="MemOProvenanceServiceImpl" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://services.memoprovenance.com"/>
+      <parameter name="wsdlServiceElement" value="MemOProvenanceServiceImplService"/>
+      <parameter name="schemaQualified" value="http://services.memoprovenance.com"/>
+      <parameter name="wsdlServicePort" value="MemOProvenanceServiceImpl"/>
+      <parameter name="className" value="com.memoprovenance.services.MemOProvenanceServiceImpl"/>
+      <parameter name="wsdlPortType" value="MemOProvenanceServiceImpl"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://services.memoprovenance.com" xmlns:retNS="http://services.memoprovenance.com" xmlns:rtns="http://services.memoprovenance.com" name="getAllProvenance" qname="operNS:getAllProvenance" returnQName="retNS:getAllProvenanceReturn" returnType="rtns:Provenance" soapAction="">
+      </operation>
+      <operation xmlns:operNS="http://services.memoprovenance.com" name="insertProvenance" qname="operNS:insertProvenance" soapAction="">
+        <parameter xmlns:pns="http://services.memoprovenance.com" xmlns:tns="http://services.memoprovenance.com" qname="pns:provenance" type="tns:Provenance"/>
+      </operation>
+      <parameter name="allowedMethods" value="insertProvenance getAllProvenance"/>
+
+      <typeMapping xmlns:ns="http://services.memoprovenance.com" qname="ns:Provenance" type="java:com.memoprovenance.services.Provenance" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+  </service>
+</deployment>

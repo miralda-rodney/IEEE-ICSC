@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://services.memoprovenance.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://services.memoprovenance.com" xmlns:intf="http://services.memoprovenance.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://services.memoprovenance.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="getAllProvenance">
+    <complexType/>
+   </element>
+   <element name="getAllProvenanceResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="getAllProvenanceReturn" type="impl:Provenance"/>
+     </sequence>
+    </complexType>
+   </element>
+   <complexType name="Provenance">
+    <sequence>
+     <element name="action" nillable="true" type="xsd:string"/>
+     <element name="date" nillable="true" type="xsd:dateTime"/>
+     <element name="name" nillable="true" type="xsd:string"/>
+     <element name="organization" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <element name="insertProvenance">
+    <complexType>
+     <sequence>
+      <element name="provenance" type="impl:Provenance"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="insertProvenanceResponse">
+    <complexType/>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getAllProvenanceRequest">
+
+      <wsdl:part element="impl:getAllProvenance" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="insertProvenanceRequest">
+
+      <wsdl:part element="impl:insertProvenance" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="insertProvenanceResponse">
+
+      <wsdl:part element="impl:insertProvenanceResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getAllProvenanceResponse">
+
+      <wsdl:part element="impl:getAllProvenanceResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="MemOProvenanceServiceImpl">
+
+      <wsdl:operation name="getAllProvenance">
+
+         <wsdl:input message="impl:getAllProvenanceRequest" name="getAllProvenanceRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getAllProvenanceResponse" name="getAllProvenanceResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="insertProvenance">
+
+         <wsdl:input message="impl:insertProvenanceRequest" name="insertProvenanceRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:insertProvenanceResponse" name="insertProvenanceResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="MemOProvenanceServiceImplSoapBinding" type="impl:MemOProvenanceServiceImpl">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="getAllProvenance">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getAllProvenanceRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getAllProvenanceResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="insertProvenance">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="insertProvenanceRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="insertProvenanceResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="MemOProvenanceServiceImplService">
+
+      <wsdl:port binding="impl:MemOProvenanceServiceImplSoapBinding" name="MemOProvenanceServiceImpl">
+
+         <wsdlsoap:address location="http://localhost:9000/MemOProvenanceSOAPService/services/MemOProvenanceServiceImpl"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

@@ -1,0 +1,870 @@
+24-Oct-2019 14:14:50.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+24-Oct-2019 14:14:50.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+24-Oct-2019 14:14:50.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+24-Oct-2019 14:14:50.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Oct-2019 14:14:50.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Oct-2019 14:14:50.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Oct-2019 14:14:50.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_161\jre
+24-Oct-2019 14:14:50.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+24-Oct-2019 14:14:50.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Oct-2019 14:14:50.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6
+24-Oct-2019 14:14:50.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6
+24-Oct-2019 14:14:50.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/conf/logging.properties
+24-Oct-2019 14:14:50.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Oct-2019 14:14:50.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+24-Oct-2019 14:14:50.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+24-Oct-2019 14:14:50.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512m
+24-Oct-2019 14:14:50.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=256M
+24-Oct-2019 14:14:50.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+24-Oct-2019 14:14:50.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.trustStorePassword=password
+24-Oct-2019 14:14:50.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.keyStore=../conf/keystore.jks
+24-Oct-2019 14:14:50.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.keyStorePassword=password
+24-Oct-2019 14:14:50.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Oct-2019 14:14:50.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Oct-2019 14:14:50.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Oct-2019 14:14:50.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/endorsed
+24-Oct-2019 14:14:50.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6
+24-Oct-2019 14:14:50.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6
+24-Oct-2019 14:14:50.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/temp
+24-Oct-2019 14:14:50.562 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\miral\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\miral\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\charm-crypto\bin;C:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\nodejs;C:\Users\miral\AppData\Local\Programs\Python\Python35\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python35;C:\Windows;C:\Windows\System32;C:\Python27\Scripts;C:\Python36\Scripts;C:\mingw\bin;C:\mingw\lib\gcc;C:\Program Files\MySQL\MySQL Connector C 6.0.2\include;C:\Users\miral\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python27\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python36;C:\Users\miral\AppData\Local\Programs\Python\Python27;C:\Python35\Scripts;C:\Program Files\Microsoft VS Code\bin;C:\Users\miral\AppData\Roaming\npm;C:\Users\miral\AppData\Local\Microsoft\WindowsApps;C:\Users\miral\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Python27;C:\Python35;C:\Python36;C:\Program Files\Git\usr\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+24-Oct-2019 14:14:51.466 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:14:51.832 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Oct-2019 14:14:51.874 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:14:51.876 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+24-Oct-2019 14:14:51.877 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2687 ms
+24-Oct-2019 14:14:51.957 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Oct-2019 14:14:51.958 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+24-Oct-2019 14:14:51.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\docs]
+24-Oct-2019 14:14:53.002 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\docs] has finished in [1,003] ms
+24-Oct-2019 14:14:53.003 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\examples]
+24-Oct-2019 14:14:54.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\examples] has finished in [1,984] ms
+24-Oct-2019 14:14:54.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\host-manager]
+24-Oct-2019 14:14:55.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\host-manager] has finished in [88] ms
+24-Oct-2019 14:14:55.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui]
+24-Oct-2019 14:14:55.093 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+24-Oct-2019 14:15:00.084 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:15:00.086 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized juddi-gui startup
+24-Oct-2019 14:15:00.086 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Attempting to generate 256 bit AES key
+24-Oct-2019 14:15:00.862 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Generation of 256 bit AES key successful
+24-Oct-2019 14:15:00.863 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui\META-INF\config.properties
+24-Oct-2019 14:15:00.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui] has finished in [5,796] ms
+24-Oct-2019 14:15:00.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3]
+24-Oct-2019 14:15:10.135 INFO [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = juddiDB Ignoring unknown property: value of "jUDDI DataSource" for "description" property
+24-Oct-2019 14:15:10.204 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:15:50.751 WARNING [main] org.apache.cxf.bus.spring.OldSpringSupport.logWarning Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+24-Oct-2019 14:15:55.037 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDIInquiryService from class org.uddi.v3_service.UDDIInquiryPortType
+24-Oct-2019 14:15:56.128 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiry
+24-Oct-2019 14:15:56.156 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDIPublicationService from class org.uddi.v3_service.UDDIPublicationPortType
+24-Oct-2019 14:15:56.358 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /publish
+24-Oct-2019 14:15:56.361 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISecurityService from class org.uddi.v3_service.UDDISecurityPortType
+24-Oct-2019 14:15:56.444 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /security
+24-Oct-2019 14:15:56.448 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionService from class org.uddi.v3_service.UDDISubscriptionPortType
+24-Oct-2019 14:15:56.525 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /subscription
+24-Oct-2019 14:15:56.526 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionListenerService from class org.uddi.v3_service.UDDISubscriptionListenerPortType
+24-Oct-2019 14:15:56.602 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /subscription-listener
+24-Oct-2019 14:15:56.603 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:v3_service}UDDICustodyTransferService from class org.uddi.v3_service.UDDICustodyTransferPortType
+24-Oct-2019 14:15:56.671 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /custody-transfer
+24-Oct-2019 14:15:56.673 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetValidationImplService from class org.uddi.v3_service.UDDIValueSetValidationPortType
+24-Oct-2019 14:15:56.743 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /valueset-validation
+24-Oct-2019 14:15:56.745 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetCachingImplService from class org.uddi.v3_service.UDDIValueSetCachingPortType
+24-Oct-2019 14:15:56.812 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /valueset-caching
+24-Oct-2019 14:15:56.842 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:inquiry_v2}Inquire from class org.uddi.v2_service.Inquire
+24-Oct-2019 14:15:57.052 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiryv2
+24-Oct-2019 14:15:57.057 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:publication_v2}Publish from class org.uddi.v2_service.Publish
+24-Oct-2019 14:15:57.091 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /publishv2
+24-Oct-2019 14:15:57.162 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromWSDL Creating Service {urn:juddi-apache-org:v3_service}JUDDIApiService from WSDL: classpath:/juddi_api_v1.wsdl
+24-Oct-2019 14:15:57.526 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /juddi-api
+24-Oct-2019 14:15:57.753 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiryRest
+24-Oct-2019 14:15:57.841 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:15:57.841 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:15:57.891 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:15:57.893 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3\WEB-INF\config.properties
+24-Oct-2019 14:15:57.941 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3] has finished in [57,069] ms
+24-Oct-2019 14:15:57.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication]
+24-Oct-2019 14:16:08.162 INFO [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = juddiDB Ignoring unknown property: value of "jUDDI DataSource" for "description" property
+24-Oct-2019 14:16:08.280 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:16:13.062 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDI_Replication_PortType from class org.uddi.v3_service.UDDIReplicationPortType
+24-Oct-2019 14:16:14.933 WARNING [main] org.apache.cxf.bus.spring.OldSpringSupport.logWarning Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+24-Oct-2019 14:16:15.251 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /replication
+24-Oct-2019 14:16:15.290 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:16:15.290 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:16:15.305 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:16:15.306 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication\WEB-INF\config.properties
+24-Oct-2019 14:16:15.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication] has finished in [17,685] ms
+24-Oct-2019 14:16:15.627 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager]
+24-Oct-2019 14:16:15.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager] has finished in [149] ms
+24-Oct-2019 14:16:15.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT]
+24-Oct-2019 14:16:15.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT] has finished in [42] ms
+24-Oct-2019 14:16:15.822 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:16:15.845 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 83968 ms
+24-Oct-2019 14:16:15.868 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+24-Oct-2019 14:16:15.869 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:16:16.068 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:16:16.069 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Oct-2019 14:16:16.099 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextDestroyed Cleaning up juddi-gui
+24-Oct-2019 14:16:16.135 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:16:16.176 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [juddiv3replication] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+24-Oct-2019 14:16:16.193 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:16:16.209 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:16:16.211 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:16:16.213 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:16:16.213 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Java HotSpot(TM) Client VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+Java HotSpot(TM) Client VM warning: ignoring option PermSize=256M; support was removed in 8.0
+24-Oct-2019 14:17:43.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+24-Oct-2019 14:17:43.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+24-Oct-2019 14:17:43.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+24-Oct-2019 14:17:43.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Oct-2019 14:17:43.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Oct-2019 14:17:43.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Oct-2019 14:17:43.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_161\jre
+24-Oct-2019 14:17:43.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+24-Oct-2019 14:17:43.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Oct-2019 14:17:43.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6
+24-Oct-2019 14:17:43.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6
+24-Oct-2019 14:17:43.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/conf/logging.properties
+24-Oct-2019 14:17:43.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Oct-2019 14:17:43.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+24-Oct-2019 14:17:43.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+24-Oct-2019 14:17:43.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512m
+24-Oct-2019 14:17:43.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=256M
+24-Oct-2019 14:17:43.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+24-Oct-2019 14:17:43.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.trustStorePassword=password
+24-Oct-2019 14:17:43.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.keyStore=../conf/keystore.jks
+24-Oct-2019 14:17:43.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.keyStorePassword=password
+24-Oct-2019 14:17:43.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Oct-2019 14:17:43.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Oct-2019 14:17:43.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Oct-2019 14:17:43.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/endorsed
+24-Oct-2019 14:17:43.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6
+24-Oct-2019 14:17:43.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6
+24-Oct-2019 14:17:43.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/temp
+24-Oct-2019 14:17:43.870 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\miral\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\miral\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\charm-crypto\bin;C:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\nodejs;C:\Users\miral\AppData\Local\Programs\Python\Python35\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python35;C:\Windows;C:\Windows\System32;C:\Python27\Scripts;C:\Python36\Scripts;C:\mingw\bin;C:\mingw\lib\gcc;C:\Program Files\MySQL\MySQL Connector C 6.0.2\include;C:\Users\miral\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python27\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python36;C:\Users\miral\AppData\Local\Programs\Python\Python27;C:\Python35\Scripts;C:\Program Files\Microsoft VS Code\bin;C:\Users\miral\AppData\Roaming\npm;C:\Users\miral\AppData\Local\Microsoft\WindowsApps;C:\Users\miral\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Python27;C:\Python35;C:\Python36;C:\Program Files\Git\usr\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+24-Oct-2019 14:17:44.354 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:17:44.532 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Oct-2019 14:17:44.537 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:17:44.539 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+24-Oct-2019 14:17:44.539 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 987 ms
+24-Oct-2019 14:17:44.589 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Oct-2019 14:17:44.589 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+24-Oct-2019 14:17:44.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\docs]
+24-Oct-2019 14:17:45.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\docs] has finished in [440] ms
+24-Oct-2019 14:17:45.039 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\examples]
+24-Oct-2019 14:17:47.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\examples] has finished in [2,874] ms
+24-Oct-2019 14:17:47.914 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\host-manager]
+24-Oct-2019 14:17:47.980 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\host-manager] has finished in [66] ms
+24-Oct-2019 14:17:47.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui]
+24-Oct-2019 14:17:47.999 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+24-Oct-2019 14:17:50.178 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:17:50.179 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized juddi-gui startup
+24-Oct-2019 14:17:50.179 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Attempting to generate 256 bit AES key
+24-Oct-2019 14:17:50.717 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Generation of 256 bit AES key successful
+24-Oct-2019 14:17:50.718 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui\META-INF\config.properties
+24-Oct-2019 14:17:50.728 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui] has finished in [2,747] ms
+24-Oct-2019 14:17:50.728 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3]
+24-Oct-2019 14:17:54.300 INFO [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = juddiDB Ignoring unknown property: value of "jUDDI DataSource" for "description" property
+24-Oct-2019 14:17:54.350 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:18:23.005 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDIInquiryService from class org.uddi.v3_service.UDDIInquiryPortType
+24-Oct-2019 14:18:24.840 WARNING [main] org.apache.cxf.bus.spring.OldSpringSupport.logWarning Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+24-Oct-2019 14:18:25.141 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiry
+24-Oct-2019 14:18:25.174 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDIPublicationService from class org.uddi.v3_service.UDDIPublicationPortType
+24-Oct-2019 14:18:25.314 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /publish
+24-Oct-2019 14:18:25.317 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISecurityService from class org.uddi.v3_service.UDDISecurityPortType
+24-Oct-2019 14:18:25.423 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /security
+24-Oct-2019 14:18:25.426 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionService from class org.uddi.v3_service.UDDISubscriptionPortType
+24-Oct-2019 14:18:25.514 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /subscription
+24-Oct-2019 14:18:25.515 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionListenerService from class org.uddi.v3_service.UDDISubscriptionListenerPortType
+24-Oct-2019 14:18:25.598 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /subscription-listener
+24-Oct-2019 14:18:25.602 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:v3_service}UDDICustodyTransferService from class org.uddi.v3_service.UDDICustodyTransferPortType
+24-Oct-2019 14:18:25.675 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /custody-transfer
+24-Oct-2019 14:18:25.677 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetValidationImplService from class org.uddi.v3_service.UDDIValueSetValidationPortType
+24-Oct-2019 14:18:25.749 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /valueset-validation
+24-Oct-2019 14:18:25.751 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetCachingImplService from class org.uddi.v3_service.UDDIValueSetCachingPortType
+24-Oct-2019 14:18:25.848 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /valueset-caching
+24-Oct-2019 14:18:25.881 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:inquiry_v2}Inquire from class org.uddi.v2_service.Inquire
+24-Oct-2019 14:18:26.174 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiryv2
+24-Oct-2019 14:18:26.180 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:publication_v2}Publish from class org.uddi.v2_service.Publish
+24-Oct-2019 14:18:26.265 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /publishv2
+24-Oct-2019 14:18:26.652 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromWSDL Creating Service {urn:juddi-apache-org:v3_service}JUDDIApiService from WSDL: classpath:/juddi_api_v1.wsdl
+24-Oct-2019 14:18:27.005 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /juddi-api
+24-Oct-2019 14:18:27.251 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiryRest
+24-Oct-2019 14:18:27.334 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:18:27.335 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:18:27.350 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:18:27.352 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3\WEB-INF\config.properties
+24-Oct-2019 14:18:27.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3] has finished in [36,727] ms
+24-Oct-2019 14:18:27.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication]
+24-Oct-2019 14:18:31.245 INFO [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = juddiDB Ignoring unknown property: value of "jUDDI DataSource" for "description" property
+24-Oct-2019 14:18:31.286 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:18:35.766 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDI_Replication_PortType from class org.uddi.v3_service.UDDIReplicationPortType
+24-Oct-2019 14:18:37.520 WARNING [main] org.apache.cxf.bus.spring.OldSpringSupport.logWarning Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+24-Oct-2019 14:18:37.857 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /replication
+24-Oct-2019 14:18:37.894 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:18:37.895 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:18:37.907 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:18:37.909 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication\WEB-INF\config.properties
+24-Oct-2019 14:18:38.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication] has finished in [10,756] ms
+24-Oct-2019 14:18:38.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager]
+24-Oct-2019 14:18:38.273 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager] has finished in [62] ms
+24-Oct-2019 14:18:38.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT]
+24-Oct-2019 14:18:38.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT] has finished in [28] ms
+24-Oct-2019 14:18:38.304 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:18:38.314 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 53774 ms
+24-Oct-2019 14:18:38.320 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+24-Oct-2019 14:18:38.321 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:18:38.502 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:18:38.503 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Oct-2019 14:18:38.509 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextDestroyed Cleaning up juddi-gui
+24-Oct-2019 14:18:38.537 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:18:38.558 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [juddiv3replication] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+24-Oct-2019 14:18:38.567 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:18:38.590 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:18:38.593 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:18:38.594 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:18:38.595 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Java HotSpot(TM) Client VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+Java HotSpot(TM) Client VM warning: ignoring option PermSize=256M; support was removed in 8.0
+usage: java org.apache.catalina.startup.Catalina [ -config {pathname} ] [ -nonaming ]  { -help | start | stop }
+24-Oct-2019 14:27:18.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+24-Oct-2019 14:27:18.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+24-Oct-2019 14:27:18.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+24-Oct-2019 14:27:18.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Oct-2019 14:27:18.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Oct-2019 14:27:18.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Oct-2019 14:27:18.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_161\jre
+24-Oct-2019 14:27:18.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+24-Oct-2019 14:27:18.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Oct-2019 14:27:18.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6
+24-Oct-2019 14:27:18.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6
+24-Oct-2019 14:27:18.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/conf/logging.properties
+24-Oct-2019 14:27:18.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Oct-2019 14:27:18.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+24-Oct-2019 14:27:18.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+24-Oct-2019 14:27:18.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512m
+24-Oct-2019 14:27:18.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=256M
+24-Oct-2019 14:27:18.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+24-Oct-2019 14:27:18.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.trustStorePassword=password
+24-Oct-2019 14:27:18.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.keyStore=../conf/keystore.jks
+24-Oct-2019 14:27:18.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.keyStorePassword=password
+24-Oct-2019 14:27:18.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Oct-2019 14:27:18.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Oct-2019 14:27:18.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Oct-2019 14:27:18.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/endorsed
+24-Oct-2019 14:27:18.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6
+24-Oct-2019 14:27:18.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6
+24-Oct-2019 14:27:18.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/temp
+24-Oct-2019 14:27:18.870 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\miral\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\miral\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\charm-crypto\bin;C:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\nodejs;C:\Users\miral\AppData\Local\Programs\Python\Python35\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python35;C:\Windows;C:\Windows\System32;C:\Python27\Scripts;C:\Python36\Scripts;C:\mingw\bin;C:\mingw\lib\gcc;C:\Program Files\MySQL\MySQL Connector C 6.0.2\include;C:\Users\miral\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python27\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python36;C:\Users\miral\AppData\Local\Programs\Python\Python27;C:\Python35\Scripts;C:\Program Files\Microsoft VS Code\bin;C:\Users\miral\AppData\Roaming\npm;C:\Users\miral\AppData\Local\Microsoft\WindowsApps;C:\Users\miral\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Python27;C:\Python35;C:\Python36;C:\Program Files\Git\usr\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+24-Oct-2019 14:27:18.969 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:27:19.141 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Oct-2019 14:27:19.147 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:27:19.148 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:670)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+24-Oct-2019 14:27:19.149 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 575 ms
+24-Oct-2019 14:27:19.171 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Oct-2019 14:27:19.171 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+24-Oct-2019 14:27:19.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\docs]
+24-Oct-2019 14:27:19.418 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\docs] has finished in [239] ms
+24-Oct-2019 14:27:19.419 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\examples]
+24-Oct-2019 14:27:19.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\examples] has finished in [382] ms
+24-Oct-2019 14:27:19.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\host-manager]
+24-Oct-2019 14:27:19.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\host-manager] has finished in [34] ms
+24-Oct-2019 14:27:19.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui]
+24-Oct-2019 14:27:19.837 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+24-Oct-2019 14:27:21.193 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:27:21.194 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized juddi-gui startup
+24-Oct-2019 14:27:21.194 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Attempting to generate 256 bit AES key
+24-Oct-2019 14:27:21.644 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Generation of 256 bit AES key successful
+24-Oct-2019 14:27:21.645 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui\META-INF\config.properties
+24-Oct-2019 14:27:21.655 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui] has finished in [1,820] ms
+24-Oct-2019 14:27:21.655 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3]
+24-Oct-2019 14:27:24.700 INFO [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = juddiDB Ignoring unknown property: value of "jUDDI DataSource" for "description" property
+24-Oct-2019 14:27:24.746 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:27:29.897 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDIInquiryService from class org.uddi.v3_service.UDDIInquiryPortType
+24-Oct-2019 14:27:31.653 WARNING [main] org.apache.cxf.bus.spring.OldSpringSupport.logWarning Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+24-Oct-2019 14:27:31.965 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiry
+24-Oct-2019 14:27:31.997 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDIPublicationService from class org.uddi.v3_service.UDDIPublicationPortType
+24-Oct-2019 14:27:32.186 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /publish
+24-Oct-2019 14:27:32.190 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISecurityService from class org.uddi.v3_service.UDDISecurityPortType
+24-Oct-2019 14:27:32.301 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /security
+24-Oct-2019 14:27:32.304 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionService from class org.uddi.v3_service.UDDISubscriptionPortType
+24-Oct-2019 14:27:32.404 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /subscription
+24-Oct-2019 14:27:32.406 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionListenerService from class org.uddi.v3_service.UDDISubscriptionListenerPortType
+24-Oct-2019 14:27:32.478 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /subscription-listener
+24-Oct-2019 14:27:32.482 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:v3_service}UDDICustodyTransferService from class org.uddi.v3_service.UDDICustodyTransferPortType
+24-Oct-2019 14:27:32.547 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /custody-transfer
+24-Oct-2019 14:27:32.549 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetValidationImplService from class org.uddi.v3_service.UDDIValueSetValidationPortType
+24-Oct-2019 14:27:32.623 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /valueset-validation
+24-Oct-2019 14:27:32.625 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetCachingImplService from class org.uddi.v3_service.UDDIValueSetCachingPortType
+24-Oct-2019 14:27:32.697 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /valueset-caching
+24-Oct-2019 14:27:32.726 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:inquiry_v2}Inquire from class org.uddi.v2_service.Inquire
+24-Oct-2019 14:27:32.939 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiryv2
+24-Oct-2019 14:27:32.943 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:publication_v2}Publish from class org.uddi.v2_service.Publish
+24-Oct-2019 14:27:33.042 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /publishv2
+24-Oct-2019 14:27:33.394 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromWSDL Creating Service {urn:juddi-apache-org:v3_service}JUDDIApiService from WSDL: classpath:/juddi_api_v1.wsdl
+24-Oct-2019 14:27:33.709 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /juddi-api
+24-Oct-2019 14:27:33.926 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiryRest
+24-Oct-2019 14:27:33.998 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:27:33.998 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:27:34.011 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:27:34.013 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3\WEB-INF\config.properties
+24-Oct-2019 14:27:34.108 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3] has finished in [12,453] ms
+24-Oct-2019 14:27:34.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication]
+24-Oct-2019 14:27:37.139 INFO [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = juddiDB Ignoring unknown property: value of "jUDDI DataSource" for "description" property
+24-Oct-2019 14:27:37.177 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:27:41.107 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDI_Replication_PortType from class org.uddi.v3_service.UDDIReplicationPortType
+24-Oct-2019 14:27:42.813 WARNING [main] org.apache.cxf.bus.spring.OldSpringSupport.logWarning Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+24-Oct-2019 14:27:43.108 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /replication
+24-Oct-2019 14:27:43.144 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:27:43.144 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:27:43.158 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:27:43.159 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication\WEB-INF\config.properties
+24-Oct-2019 14:27:43.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication] has finished in [9,336] ms
+24-Oct-2019 14:27:43.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager]
+24-Oct-2019 14:27:43.467 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager] has finished in [22] ms
+24-Oct-2019 14:27:43.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT]
+24-Oct-2019 14:27:43.484 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT] has finished in [17] ms
+24-Oct-2019 14:27:43.486 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:27:43.494 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 24345 ms
+24-Oct-2019 14:27:43.499 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+24-Oct-2019 14:27:43.499 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:27:43.686 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:27:43.686 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Oct-2019 14:27:43.694 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextDestroyed Cleaning up juddi-gui
+24-Oct-2019 14:27:43.718 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:27:43.740 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [juddiv3replication] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+24-Oct-2019 14:27:43.750 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:27:43.774 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:27:43.777 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:27:43.778 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:27:43.778 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Java HotSpot(TM) Client VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+Java HotSpot(TM) Client VM warning: ignoring option PermSize=256M; support was removed in 8.0
+usage: java org.apache.catalina.startup.Catalina [ -config {pathname} ] [ -nonaming ]  { -help | start | stop }
+24-Oct-2019 14:28:26.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+24-Oct-2019 14:28:26.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+24-Oct-2019 14:28:26.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+24-Oct-2019 14:28:26.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Oct-2019 14:28:26.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Oct-2019 14:28:26.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Oct-2019 14:28:26.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_161\jre
+24-Oct-2019 14:28:26.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+24-Oct-2019 14:28:26.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Oct-2019 14:28:26.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6
+24-Oct-2019 14:28:26.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6
+24-Oct-2019 14:28:26.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/conf/logging.properties
+24-Oct-2019 14:28:26.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Oct-2019 14:28:26.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+24-Oct-2019 14:28:26.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+24-Oct-2019 14:28:26.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512m
+24-Oct-2019 14:28:26.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=256M
+24-Oct-2019 14:28:26.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+24-Oct-2019 14:28:26.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.trustStorePassword=password
+24-Oct-2019 14:28:26.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.keyStore=../conf/keystore.jks
+24-Oct-2019 14:28:26.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.keyStorePassword=password
+24-Oct-2019 14:28:26.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Oct-2019 14:28:26.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Oct-2019 14:28:26.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Oct-2019 14:28:26.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/endorsed
+24-Oct-2019 14:28:26.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6
+24-Oct-2019 14:28:26.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6
+24-Oct-2019 14:28:26.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/temp
+24-Oct-2019 14:28:26.975 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\miral\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\miral\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\charm-crypto\bin;C:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\nodejs;C:\Users\miral\AppData\Local\Programs\Python\Python35\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python35;C:\Windows;C:\Windows\System32;C:\Python27\Scripts;C:\Python36\Scripts;C:\mingw\bin;C:\mingw\lib\gcc;C:\Program Files\MySQL\MySQL Connector C 6.0.2\include;C:\Users\miral\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python27\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python36;C:\Users\miral\AppData\Local\Programs\Python\Python27;C:\Python35\Scripts;C:\Program Files\Microsoft VS Code\bin;C:\Users\miral\AppData\Roaming\npm;C:\Users\miral\AppData\Local\Microsoft\WindowsApps;C:\Users\miral\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Python27;C:\Python35;C:\Python36;C:\Program Files\Git\usr\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+24-Oct-2019 14:28:27.091 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:28:27.326 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Oct-2019 14:28:27.335 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:28:27.336 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:670)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+24-Oct-2019 14:28:27.337 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 735 ms
+24-Oct-2019 14:28:27.363 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Oct-2019 14:28:27.363 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+24-Oct-2019 14:28:27.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\docs]
+24-Oct-2019 14:28:27.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\docs] has finished in [300] ms
+24-Oct-2019 14:28:27.673 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\examples]
+24-Oct-2019 14:28:28.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\examples] has finished in [414] ms
+24-Oct-2019 14:28:28.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\host-manager]
+24-Oct-2019 14:28:28.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\host-manager] has finished in [33] ms
+24-Oct-2019 14:28:28.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui]
+24-Oct-2019 14:28:28.123 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+24-Oct-2019 14:28:29.526 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:28:29.527 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized juddi-gui startup
+24-Oct-2019 14:28:29.527 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Attempting to generate 256 bit AES key
+24-Oct-2019 14:28:29.919 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Generation of 256 bit AES key successful
+24-Oct-2019 14:28:29.920 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui\META-INF\config.properties
+24-Oct-2019 14:28:29.929 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui] has finished in [1,808] ms
+24-Oct-2019 14:28:29.930 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3]
+24-Oct-2019 14:28:33.758 INFO [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = juddiDB Ignoring unknown property: value of "jUDDI DataSource" for "description" property
+24-Oct-2019 14:28:33.822 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:28:40.033 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDIInquiryService from class org.uddi.v3_service.UDDIInquiryPortType
+24-Oct-2019 14:28:42.234 WARNING [main] org.apache.cxf.bus.spring.OldSpringSupport.logWarning Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+24-Oct-2019 14:28:42.583 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiry
+24-Oct-2019 14:28:42.649 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDIPublicationService from class org.uddi.v3_service.UDDIPublicationPortType
+24-Oct-2019 14:28:42.834 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /publish
+24-Oct-2019 14:28:42.838 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISecurityService from class org.uddi.v3_service.UDDISecurityPortType
+24-Oct-2019 14:28:42.967 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /security
+24-Oct-2019 14:28:42.971 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionService from class org.uddi.v3_service.UDDISubscriptionPortType
+24-Oct-2019 14:28:43.098 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /subscription
+24-Oct-2019 14:28:43.101 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionListenerService from class org.uddi.v3_service.UDDISubscriptionListenerPortType
+24-Oct-2019 14:28:43.183 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /subscription-listener
+24-Oct-2019 14:28:43.186 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:v3_service}UDDICustodyTransferService from class org.uddi.v3_service.UDDICustodyTransferPortType
+24-Oct-2019 14:28:43.286 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /custody-transfer
+24-Oct-2019 14:28:43.291 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetValidationImplService from class org.uddi.v3_service.UDDIValueSetValidationPortType
+24-Oct-2019 14:28:43.379 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /valueset-validation
+24-Oct-2019 14:28:43.380 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetCachingImplService from class org.uddi.v3_service.UDDIValueSetCachingPortType
+24-Oct-2019 14:28:43.484 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /valueset-caching
+24-Oct-2019 14:28:43.517 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:inquiry_v2}Inquire from class org.uddi.v2_service.Inquire
+24-Oct-2019 14:28:43.750 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiryv2
+24-Oct-2019 14:28:43.758 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:publication_v2}Publish from class org.uddi.v2_service.Publish
+24-Oct-2019 14:28:43.893 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /publishv2
+24-Oct-2019 14:28:44.340 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromWSDL Creating Service {urn:juddi-apache-org:v3_service}JUDDIApiService from WSDL: classpath:/juddi_api_v1.wsdl
+24-Oct-2019 14:28:44.759 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /juddi-api
+24-Oct-2019 14:28:45.025 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiryRest
+24-Oct-2019 14:28:45.104 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:28:45.104 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:28:45.119 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:28:45.121 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3\WEB-INF\config.properties
+24-Oct-2019 14:28:45.329 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3] has finished in [15,399] ms
+24-Oct-2019 14:28:45.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication]
+24-Oct-2019 14:28:49.349 INFO [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = juddiDB Ignoring unknown property: value of "jUDDI DataSource" for "description" property
+24-Oct-2019 14:28:49.391 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:28:53.626 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDI_Replication_PortType from class org.uddi.v3_service.UDDIReplicationPortType
+24-Oct-2019 14:28:55.303 WARNING [main] org.apache.cxf.bus.spring.OldSpringSupport.logWarning Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+24-Oct-2019 14:28:55.608 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /replication
+24-Oct-2019 14:28:55.659 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:28:55.660 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:28:55.707 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:28:55.708 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication\WEB-INF\config.properties
+24-Oct-2019 14:28:56.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication] has finished in [10,675] ms
+24-Oct-2019 14:28:56.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager]
+24-Oct-2019 14:28:56.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager] has finished in [25] ms
+24-Oct-2019 14:28:56.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT]
+24-Oct-2019 14:28:56.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT] has finished in [17] ms
+24-Oct-2019 14:28:56.049 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:28:56.057 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 28719 ms
+24-Oct-2019 14:28:56.064 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+24-Oct-2019 14:28:56.064 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:28:56.220 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:28:56.220 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Oct-2019 14:28:56.226 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextDestroyed Cleaning up juddi-gui
+24-Oct-2019 14:28:56.284 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:28:56.305 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [juddiv3replication] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+24-Oct-2019 14:28:56.314 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:28:56.338 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:28:56.340 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:28:56.341 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:28:56.341 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Java HotSpot(TM) Client VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+Java HotSpot(TM) Client VM warning: ignoring option PermSize=256M; support was removed in 8.0
+.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\host-manager] has finished in [41] ms
+24-Oct-2019 14:28:33.567 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui]
+24-Oct-2019 14:28:33.571 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+24-Oct-2019 14:28:35.189 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:28:35.190 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized juddi-gui startup
+24-Oct-2019 14:28:35.191 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Attempting to generate 256 bit AES key
+24-Oct-2019 14:28:35.757 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Generation of 256 bit AES key successful
+24-Oct-2019 14:28:35.759 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui\META-INF\config.properties
+24-Oct-2019 14:28:35.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui] has finished in [2,201] ms
+24-Oct-2019 14:28:35.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3]
+24-Oct-2019 14:28:39.658 INFO [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = juddiDB Ignoring unknown property: value of "jUDDI DataSource" for "description" property
+24-Oct-2019 14:28:39.713 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:28:43.097 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:28:43.097 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:28:43.116 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:28:43.118 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3\WEB-INF\config.properties
+24-Oct-2019 14:28:43.194 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Oct-2019 14:28:43.194 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/juddiv3] startup failed due to previous errors
+24-Oct-2019 14:28:43.198 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:28:43.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3] has finished in [7,481] ms
+24-Oct-2019 14:28:43.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication]
+24-Oct-2019 14:28:47.132 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:28:49.831 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:28:49.831 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:28:49.857 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:28:49.861 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication\WEB-INF\config.properties
+24-Oct-2019 14:28:49.866 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+24-Oct-2019 14:28:49.867 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/juddiv3replication] startup failed due to previous errors
+24-Oct-2019 14:28:49.869 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:28:49.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication] has finished in [6,681] ms
+24-Oct-2019 14:28:49.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager]
+24-Oct-2019 14:28:50.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager] has finished in [78] ms
+24-Oct-2019 14:28:50.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT]
+24-Oct-2019 14:28:50.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT] has finished in [46] ms
+24-Oct-2019 14:28:50.061 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 17498 ms
+24-Oct-2019 14:28:50.067 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+24-Oct-2019 14:28:50.068 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:28:50.068 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:28:50.068 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Oct-2019 14:28:50.073 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextDestroyed Cleaning up juddi-gui
+24-Oct-2019 14:28:50.105 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:28:50.105 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:28:50.105 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:28:50.106 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Java HotSpot(TM) Client VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+Java HotSpot(TM) Client VM warning: ignoring option PermSize=256M; support was removed in 8.0
+24-Oct-2019 14:35:59.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+24-Oct-2019 14:35:59.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+24-Oct-2019 14:35:59.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+24-Oct-2019 14:35:59.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Oct-2019 14:35:59.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Oct-2019 14:35:59.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+24-Oct-2019 14:35:59.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_161\jre
+24-Oct-2019 14:35:59.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+24-Oct-2019 14:35:59.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Oct-2019 14:35:59.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6
+24-Oct-2019 14:35:59.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6
+24-Oct-2019 14:35:59.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/conf/logging.properties
+24-Oct-2019 14:35:59.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Oct-2019 14:35:59.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+24-Oct-2019 14:35:59.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+24-Oct-2019 14:35:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512m
+24-Oct-2019 14:35:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=256M
+24-Oct-2019 14:35:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+24-Oct-2019 14:35:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.trustStorePassword=password
+24-Oct-2019 14:35:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.keyStore=../conf/keystore.jks
+24-Oct-2019 14:35:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.net.ssl.keyStorePassword=password
+24-Oct-2019 14:35:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Oct-2019 14:35:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Oct-2019 14:35:59.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Oct-2019 14:35:59.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/endorsed
+24-Oct-2019 14:35:59.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6
+24-Oct-2019 14:35:59.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6
+24-Oct-2019 14:35:59.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/miral/juddi-distro-3.3.6/juddi-distro-3.3.6/juddi-tomcat-3.3.6/temp
+24-Oct-2019 14:35:59.521 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\miral\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\miral\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\charm-crypto\bin;C:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\nodejs;C:\Users\miral\AppData\Local\Programs\Python\Python35\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python35;C:\Windows;C:\Windows\System32;C:\Python27\Scripts;C:\Python36\Scripts;C:\mingw\bin;C:\mingw\lib\gcc;C:\Program Files\MySQL\MySQL Connector C 6.0.2\include;C:\Users\miral\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python27\Scripts;C:\Users\miral\AppData\Local\Programs\Python\Python36;C:\Users\miral\AppData\Local\Programs\Python\Python27;C:\Python35\Scripts;C:\Program Files\Microsoft VS Code\bin;C:\Users\miral\AppData\Roaming\npm;C:\Users\miral\AppData\Local\Microsoft\WindowsApps;C:\Users\miral\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Python27;C:\Python35;C:\Python36;C:\Program Files\Git\usr\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+24-Oct-2019 14:35:59.635 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:35:59.888 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Oct-2019 14:35:59.895 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:35:59.897 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+24-Oct-2019 14:35:59.898 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 739 ms
+24-Oct-2019 14:35:59.925 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Oct-2019 14:35:59.925 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+24-Oct-2019 14:35:59.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\docs]
+24-Oct-2019 14:36:00.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\docs] has finished in [261] ms
+24-Oct-2019 14:36:00.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\examples]
+24-Oct-2019 14:36:00.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\examples] has finished in [401] ms
+24-Oct-2019 14:36:00.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\host-manager]
+24-Oct-2019 14:36:00.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\host-manager] has finished in [41] ms
+24-Oct-2019 14:36:00.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui]
+24-Oct-2019 14:36:00.643 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+24-Oct-2019 14:36:02.217 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:36:02.218 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized juddi-gui startup
+24-Oct-2019 14:36:02.218 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Attempting to generate 256 bit AES key
+24-Oct-2019 14:36:02.688 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Generation of 256 bit AES key successful
+24-Oct-2019 14:36:02.689 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui\META-INF\config.properties
+24-Oct-2019 14:36:02.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddi-gui] has finished in [2,086] ms
+24-Oct-2019 14:36:02.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3]
+24-Oct-2019 14:36:06.153 INFO [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = juddiDB Ignoring unknown property: value of "jUDDI DataSource" for "description" property
+24-Oct-2019 14:36:06.202 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:36:11.739 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDIInquiryService from class org.uddi.v3_service.UDDIInquiryPortType
+24-Oct-2019 14:36:13.600 WARNING [main] org.apache.cxf.bus.spring.OldSpringSupport.logWarning Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+24-Oct-2019 14:36:13.912 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiry
+24-Oct-2019 14:36:13.948 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDIPublicationService from class org.uddi.v3_service.UDDIPublicationPortType
+24-Oct-2019 14:36:14.091 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /publish
+24-Oct-2019 14:36:14.094 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISecurityService from class org.uddi.v3_service.UDDISecurityPortType
+24-Oct-2019 14:36:14.189 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /security
+24-Oct-2019 14:36:14.191 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionService from class org.uddi.v3_service.UDDISubscriptionPortType
+24-Oct-2019 14:36:14.279 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /subscription
+24-Oct-2019 14:36:14.281 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionListenerService from class org.uddi.v3_service.UDDISubscriptionListenerPortType
+24-Oct-2019 14:36:14.404 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /subscription-listener
+24-Oct-2019 14:36:14.408 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:v3_service}UDDICustodyTransferService from class org.uddi.v3_service.UDDICustodyTransferPortType
+24-Oct-2019 14:36:14.482 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /custody-transfer
+24-Oct-2019 14:36:14.484 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetValidationImplService from class org.uddi.v3_service.UDDIValueSetValidationPortType
+24-Oct-2019 14:36:14.555 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /valueset-validation
+24-Oct-2019 14:36:14.557 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetCachingImplService from class org.uddi.v3_service.UDDIValueSetCachingPortType
+24-Oct-2019 14:36:14.638 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /valueset-caching
+24-Oct-2019 14:36:14.672 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:inquiry_v2}Inquire from class org.uddi.v2_service.Inquire
+24-Oct-2019 14:36:14.898 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiryv2
+24-Oct-2019 14:36:14.903 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:publication_v2}Publish from class org.uddi.v2_service.Publish
+24-Oct-2019 14:36:15.015 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /publishv2
+24-Oct-2019 14:36:15.378 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromWSDL Creating Service {urn:juddi-apache-org:v3_service}JUDDIApiService from WSDL: classpath:/juddi_api_v1.wsdl
+24-Oct-2019 14:36:15.711 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /juddi-api
+24-Oct-2019 14:36:15.949 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /inquiryRest
+24-Oct-2019 14:36:16.023 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:36:16.024 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:36:16.039 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:36:16.040 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3\WEB-INF\config.properties
+24-Oct-2019 14:36:16.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3] has finished in [13,407] ms
+24-Oct-2019 14:36:16.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication]
+24-Oct-2019 14:36:19.375 INFO [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = juddiDB Ignoring unknown property: value of "jUDDI DataSource" for "description" property
+24-Oct-2019 14:36:19.418 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Oct-2019 14:36:23.538 INFO [main] org.apache.cxf.service.factory.ReflectionServiceFactoryBean.buildServiceFromClass Creating Service {urn:uddi-org:api_v3_portType}UDDI_Replication_PortType from class org.uddi.v3_service.UDDIReplicationPortType
+24-Oct-2019 14:36:25.247 WARNING [main] org.apache.cxf.bus.spring.OldSpringSupport.logWarning Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+24-Oct-2019 14:36:25.547 INFO [main] org.apache.cxf.endpoint.ServerImpl.initDestination Setting the server's publish address to be /replication
+24-Oct-2019 14:36:25.581 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized juddi-admin gui startup
+24-Oct-2019 14:36:25.582 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Attempting to generate 256 bit AES key
+24-Oct-2019 14:36:25.595 INFO [main] org.apache.juddi.adminconsole.StartupServlet.generateKey Generation of 256 bit AES key successful
+24-Oct-2019 14:36:25.596 INFO [main] org.apache.juddi.adminconsole.StartupServlet.contextInitialized Storing key to C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication\WEB-INF\config.properties
+24-Oct-2019 14:36:25.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\juddiv3replication] has finished in [9,763] ms
+24-Oct-2019 14:36:25.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager]
+24-Oct-2019 14:36:25.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\manager] has finished in [27] ms
+24-Oct-2019 14:36:25.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT]
+24-Oct-2019 14:36:25.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\miral\juddi-distro-3.3.6\juddi-distro-3.3.6\juddi-tomcat-3.3.6\webapps\ROOT] has finished in [18] ms
+24-Oct-2019 14:36:25.945 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:36:25.955 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 26057 ms
+24-Oct-2019 14:36:25.961 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+24-Oct-2019 14:36:25.961 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:36:26.112 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:36:26.113 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Oct-2019 14:36:26.120 INFO [main] org.apache.juddi.webconsole.StartupServlet.contextDestroyed Cleaning up juddi-gui
+24-Oct-2019 14:36:26.144 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:36:26.165 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [juddiv3replication] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+24-Oct-2019 14:36:26.174 INFO [main] org.apache.juddi.adminconsole.StartupServlet.removeKeyFromConfigurationFile Cleaning up juddi-admin
+24-Oct-2019 14:36:26.198 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:36:26.200 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Oct-2019 14:36:26.201 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+24-Oct-2019 14:36:26.202 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Java HotSpot(TM) Client VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+Java HotSpot(TM) Client VM warning: ignoring option PermSize=256M; support was removed in 8.0
